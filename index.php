@@ -175,7 +175,7 @@
 
 
             <div class="article-header">
-                <h4 class="title">Students Entries</h4>
+                <h4 class="title">Students Entries.</h4>
                 <p>All responses from the form</p>
             </div>
             <article id="form-results">
@@ -195,7 +195,7 @@
                         <!-- //loop -->
                         <?php foreach ($records as $rows) { ?>
                             <tr>
-                                <td><?= $rows['id']; ?></td>
+                                <td><?= $rows['id']; ?></td>   
                                 <td><?= $rows['fname']; ?></td>
                                 <td>ongabi</td>
                                 <td>female</td>
